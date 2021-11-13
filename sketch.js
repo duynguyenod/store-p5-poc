@@ -17,7 +17,7 @@ function draw() {
 }
 
 function mousePressed(fxn) {
-
+  renderingProductTypes.forEach((productType) => productType.clicked(mouseX, mouseY));                                ````````````````````````````
 }
 
 function getRenderingProductTypes(productTypes) {
